@@ -27,14 +27,14 @@
       </mj-raw>
       <mj-column>
         <mj-text font-size="22px" font-family="Bnagers" color="white">📰Noticias destacadas</mj-text>
-        <mj-text font-size="18px" font-family="Bnagers" color="white">✨Invitados estrella Confirmados</mj-text>
+        <mj-text font-size="18px" font-family="Bnagers" color="white">✨Invitados estrella confirmados</mj-text>
         <mj-text font-size="16px" font-family="Bnagers" color="white">
           - Emil Ferris (EE. UU.)</br>
           - Paco Roca (España)</br>
           - Marcelo D'Salete (Brasil)
         </mj-text>
         <mj-text font-size="18px" font-family="Bnagers" color="white">🎤Charlas y Paneles Imperdibles</mj-text>
-        <mj-text font-size="16px" font-family="Bnagers" color="white">¡No te pierdas la mesa redonda sobre "El futuro del cómic Español", con autores de Marvel y DC.</mj-text>
+        <mj-text font-size="16px" font-family="Bnagers" color="white">¡No te pierdas la mesa redonda sobre: "El futuro del cómic Español", con autores de Marvel y DC.</mj-text>
         <mj-text font-size="18px" font-family="Bnagers" color="white">📸 Concurso de Cosplay</mj-text>
         <mj-text font-size="16px" font-family="Bnagers" color="white">¡Vuelve el concurso de cosplay! Premios para el mejor traje individual, grupal y originalidad. Inscripciones abiertas.</mj-text>
       </mj-column>
@@ -49,11 +49,11 @@
       <mj-column>
         <mj-text font-size="22px" font-family="Bnagers" color="white">🎟️💥​Promociones</mj-text>
         <mj-text font-size="17px" font-family="Bnagers" color="white">Descuento de 2€ para:</br>
-          - Socios Fnac, Carnet Jove, Familias numerosas, personas con diversidad funcional, etc.</mj-text>
+          - Socios Fnac, Carnet Jove, Familias numerosas, Personas con diversidad funcional, etc.</mj-text>
         <mj-text font-size="17px" font-family="Bnagers" color="white">
           Descuentos generales:</br>
           - Black Friday</br>
-          - Entradas escolares</br>
+          - Entradas Escolares</br>
           - Pack Familiar</br>
           - Pack Amigos
         </mj-text>
@@ -88,7 +88,7 @@
         <mj-image width="30px" src="instagram.png" href="https://www.instagram.com/feriavalencia/?hl=es"></mj-image>
       </mj-column>
       <mj-column>
-        <mj-image width="30px" src="tiktok.png"></mj-image>
+        <mj-image width="30px" src="tiktok.png" href="https://www.tiktok.com/discover/feria-de-valencia"></mj-image>
       </mj-column>
     </mj-section>
   </mj-body>
