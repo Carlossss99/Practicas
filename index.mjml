@@ -1,21 +1,43 @@
 <mjml>
-  <mj-body>
+  <mj-body background-color="#1b6e1b">
     <mj-raw>
-      <!-- Company Header -->
     </mj-raw>
-    <mj-section background-color="#f0f0f0">
+    <mj-section background-color="#219721">
       <mj-column>
-        <mj-text font-style="italic" font-size="20px" color="#626262">My Company</mj-text>
+        <mj-image src="logo.png" alt="Feria Valencia" align="left" width="200px" />
       </mj-column>
     </mj-section>
-    <mj-raw>
-      <!-- Image Header -->
+    <mj-section>
+    <mj-column width="600px">
+      <mj-image src="Cabecera_Mail_600x240px_Cartel_Comic_2025.jpg" alt="" />
+    </mj-column>
+    </mj-section>      
+      <mj-raw>
+      
     </mj-raw>
-    <mj-section background-url="http://1.bp.blogspot.com/-TPrfhxbYpDY/Uh3Refzk02I/AAAAAAAALw8/5sUJ0UUGYuw/s1600/New+York+in+The+1960's+-+70's+(2).jpg" background-size="cover" background-repeat="no-repeat">
-      <mj-column width="600px">
-        <mj-text align="center" color="#fff" font-size="40px" font-family="Helvetica Neue">Slogan here</mj-text>
-        <mj-button background-color="#F63A4D" href="#">Promotion</mj-button>
+    <mj-section background-color="#219721">
+      <mj-raw>
+        
+      </mj-raw>
+      <mj-column>
+        <mj-image width="250px" src="Autores.png"></mj-image>
       </mj-column>
-    </mj-section>    
+      <mj-raw>
+        
+      </mj-raw>
+      <mj-column>
+        <mj-text font-size="21px" font-family="Comic Sans MS" color="white">📰Noticias destacadas</mj-text>
+        <mj-text font-size="15px" font-family="Comic Sans MS" color="white">✨Invitados estrella Confirmados</mj-text>
+        <mj-text font-size="14px" font-family="Comic Sans MS" color="white">
+          - Emil Ferris (EE. UU.)</br>
+          - Paco Roca (España)</br>
+          - Marcelo D'Salete (Brasil)
+        </mj-text>
+        <mj-text font-size="15px" font-family="Comic Sans MS" color="white">🎤Charlas y Paneles Imperdibles</mj-text>
+        <mj-text font-size="14px" font-family="Comic Sans MS" color="white">¡No te pierdas la mesa redonda sobre "El futuro del cómic Español", con autores de Marvel y DC.</mj-text>
+        <mj-text font-size="15px" font-family="Comic Sans MS" color="white">📸 Concurso de Cosplay</mj-text>
+        <mj-text font-size="14px" font-family="Comic Sans MS" color="white">¡Vuelve el concurso de cosplay! Premios para el mejor traje individual, grupal y originalidad. Inscripciones abiertas.</mj-text>
+      </mj-column>
+    </mj-section>
   </mj-body>
 </mjml>
