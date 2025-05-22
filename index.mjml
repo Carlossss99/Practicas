@@ -4,12 +4,12 @@
     </mj-raw>
     <mj-section background-color="#219721">
       <mj-column>
-        <mj-image src="logo.png" alt="Feria Valencia" align="left" width="200px" />
+        <mj-image src="https://raw.githubusercontent.com/Carlossss99/Fotos-Boletines/main/logo.png?raw=true" alt="Feria Valencia" align="left" width="200px" />
       </mj-column>
     </mj-section>
     <mj-section>
     <mj-column width="600px">
-      <mj-image src="Cabecera_Mail_600x240px_Cartel_Comic_2025.jpg" alt="" />
+      <mj-image src="https://raw.githubusercontent.com/Carlossss99/Fotos-Boletines/main/Cabecera_Mail_600x240px_Cartel_Comic_2025.jpg?raw=true" alt="" />
     </mj-column>
     </mj-section>      
       <mj-raw>
@@ -20,7 +20,7 @@
         
       </mj-raw>
       <mj-column>
-        <mj-image width="250px" src="Autores.png"></mj-image>
+        <mj-image width="250px" src="https://raw.githubusercontent.com/Carlossss99/Fotos-Boletines/main/Autores.png?raw=true"></mj-image>
       </mj-column>
       <mj-raw>
         
@@ -64,7 +64,7 @@
         
       </mj-raw>
       <mj-column>
-        <mj-image width="200px" src="Promociones.png"></mj-image>
+        <mj-image width="200px" src="https://raw.githubusercontent.com/Carlossss99/Fotos-Boletines/main/Promociones.png?raw=true"></mj-image>
       </mj-column>
     </mj-section>
     <mj-raw>
@@ -79,16 +79,16 @@
     </mj-section>
     <mj-section background-color="#1b6e1b">
       <mj-column>
-        <mj-image width="30px" src="facebook.png" href="https://www.facebook.com/feriavalencia/?locale=es_ES"></mj-image>
+        <mj-image width="30px" src="https://raw.githubusercontent.com/Carlossss99/Fotos-Boletines/main/facebook.png?raw=true" href="https://www.facebook.com/feriavalencia/?locale=es_ES"></mj-image>
       </mj-column>
       <mj-column>
-        <mj-image width="30px" src="x.png" href="https://x.com/feria_valencia?lang=es"></mj-image>
+        <mj-image width="30px" src="https://raw.githubusercontent.com/Carlossss99/Fotos-Boletines/main/x.png?raw=true" href="https://x.com/feria_valencia?lang=es"></mj-image>
       </mj-column>
       <mj-column>
-        <mj-image width="30px" src="instagram.png" href="https://www.instagram.com/feriavalencia/?hl=es"></mj-image>
+        <mj-image width="30px" src="https://raw.githubusercontent.com/Carlossss99/Fotos-Boletines/main/instagram.png?raw=true" href="https://www.instagram.com/feriavalencia/?hl=es"></mj-image>
       </mj-column>
       <mj-column>
-        <mj-image width="30px" src="tiktok.png" href="https://www.tiktok.com/discover/feria-de-valencia"></mj-image>
+        <mj-image width="30px" src="https://raw.githubusercontent.com/Carlossss99/Fotos-Boletines/main/tiktok.png?raw=true" href="https://www.tiktok.com/discover/feria-de-valencia"></mj-image>
       </mj-column>
     </mj-section>
   </mj-body>
