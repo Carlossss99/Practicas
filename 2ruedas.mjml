@@ -1,0 +1,222 @@
+<mjml>
+  <mj-head>
+     <mj-font name="Roboto" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" />		
+    <mj-font name="'Josefin Sans'" href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&display=swap" />
+    <mj-attributes>
+      <mj-all font-family="Roboto, helvetica, Arial, sans serif" font-size="16px" line-height="20px" font-weight="400" />		
+      
+    </mj-attributes>
+    <mj-style>
+    @media only screen and (max-width:600px) {
+      .listado {padding:0px; }
+      }
+    .listado li {padding-right:10px}
+    </mj-style>
+  </mj-head>
+  <mj-body width="600px">
+    <mj-wrapper full-width="full-width" background-color="#ededed" padding="20px 0px">
+      <mj-section padding="0px">
+      	<mj-column width="80%">
+        <mj-text font-size="12px" padding="0px">FERIA DOS RUEDAS - Salon de la Moto y la Bici de Valencia | 15 - 17 Noviembre 2024</mj-text>
+        </mj-column>
+        <mj-column width="20%"><mj-text font-size="12px" align="right" padding="0px"><a style="color:#C41718" href="https://dosruedas.feriavalencia.com">Ver en el navegador</a></mj-text></mj-column>
+      </mj-section>
+      
+      <mj-section padding="0px" background-color="#fff">
+      <mj-column><mj-image src="https://practicas.feriavalencia.com/wp-content/uploads/2025/05/Cabecera_mail_2Ruedas_2024_expositores.jpg" href="https://www.feriaautomovil.es" padding="0px"></mj-image></mj-column>
+      </mj-section>
+      <mj-section background-color="#C41718" padding="0px">
+      <mj-column padding="0px">
+        <mj-text align="center" color="#ffffff" font-size="24px" font-weight="700" font-family="'Josefin Sans', sans-serif" line-height="32px" padding="20px 20px" text-transform="uppercase">
+            ¡Gana 2 Entradas para el GP de Cheste!
+        </mj-text> 
+      </mj-column>
+      </mj-section>
+      <mj-section background-color="#ffffff" padding-left="20px" padding-right="20px" padding-bottom="0px">
+        <mj-column padding="0px">
+            <mj-text align="left" color="#333333" padding-left="10px" padding-right="10px" padding-bottom="0px" padding-top="0px">
+                <p>El <b>Salón 2 Ruedas de Valencia</b> celebra su edición 2024 del <b>15 al 17 de noviembre</b> en Feria Valencia, coincidiendo con el <b>Gran Premio Motul de la Comunitat Valenciana.</b><br><br>Y este año... ¡tenemos premio!<br><br><b>Sorteamos 2 entradas dobles para asistir al GP de Cheste.</b> Solo tienes que rellenar el formulario de entradas antes del <b>1 de septiembre</b> y entrarás automáticamente en el sorteo.</p>
+            </mj-text>
+        </mj-column>
+    </mj-section>
+    <mj-section background-color="#C41718" padding="0px">
+        <mj-column padding="0px">
+            <mj-text align="center" color="#ffffff" font-size="20px" font-weight="700" font-family="'Josefin Sans', sans-serif" text-transform="uppercase">
+                ¿Como entro en el sorteo?
+            </mj-text>
+        </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="10px">
+        <mj-column>
+            <mj-text align="center" font-size="20px" font-weight="700" font-family="'Josefin Sans', sans-serif" color="#C41718" text-transform="uppercase">
+                ✅Cómo participar
+            </mj-text>
+            <mj-text align="center" font-size="14px" color="#333333">
+                Rellena el formulario de solicitud de entradas para acceder a la feria antes del <b>1 de septiembre</b>.
+            </mj-text>
+        </mj-column>
+        <mj-column>
+            <mj-text align="center" font-size="20px" font-weight="700" font-family="'Josefin Sans', sans-serif" color="#C41718" text-transform="uppercase">
+                🏆Premio
+            </mj-text>
+            <mj-text align="center" font-size="14px" color="#333333">
+                Participas en el sorteo de <b>2 entradas dobles</b> para el Gran Premio de Motociclismo de Cheste.
+            </mj-text>
+        </mj-column>
+        <mj-column>
+            <mj-text align="center" font-size="18px" font-weight="700" font-family="'Josefin Sans', sans-serif" color="#C41718" text-transform="uppercase">
+                🔍Pide el boletín
+            </mj-text>
+            <mj-text align="center" font-size="14px" color="#333333">
+                Consulta las <a href="https://dosruedas.feriavalencia.com/politica-de-privacidad-2/" style="color:#C41718"><b>condiciones legales</b></a> del sorteo y acepta recibir el boletín informativo.
+            </mj-text>
+        </mj-column>
+    </mj-section>
+
+    <mj-section background-url="https://media1.tenor.com/m/Jdm8OZKzCnYAAAAd/rebahan-motogp.gif" background-size="cover" background-repeat="no-repeat" padding="0px" full-width="full-width">
+        <mj-column background-color="rgba(0, 0, 0, 0.7)" padding="50px 0px">
+            <mj-text color="#ffffff" align="center" font-size="35px" font-family="Arial" font-weight="bold">
+                ¡Participa!
+            </mj-text>
+    
+            <mj-button background-color="#C41718" href="https://tuenlace.com/formulario" font-size="15px" font-family="'Josefin Sans', sans-serif" font-weight="700" color="#ffffff" padding="20px 40px" border-radius="4px" text-transform="uppercase">
+                Formulario
+            </mj-button>
+
+            <mj-text align="center" color="#ffffff" font-size="14px" font-weight="700" font-family="'Josefin Sans', sans-serif" text-transform="uppercase">
+                ¡¡Inscríbete ahora y participa en el sorteo!!
+            </mj-text>
+        </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding-left="20px" padding-right="20px" padding-bottom="0px">
+        <mj-column padding="0px">
+            
+        </mj-column>
+    </mj-section>
+    <mj-section background-color="#C41718" padding="0px">
+        <mj-column padding="0px">
+            <mj-text align="center" color="#ffffff" font-size="20px" font-weight="700" font-family="'Josefin Sans', sans-serif" text-transform="uppercase">
+                ¿En que consiste la MOTUL?
+            </mj-text>
+        </mj-column>
+    </mj-section>
+    <mj-section background-color="#f8f8f8" padding="30px 20px">
+        <mj-column>
+            <mj-text  align="left" color="#333333" padding-left="10px" padding-right="10px" padding-bottom="0px" padding-top="0px">
+                El Gran Premio Motul de la Comunitat Valenciana es una de las citas más esperadas del <b>Campeonato del Mundo de MotoGP</b>. Se celebra en el icónico <b>Circuit Ricardo Tormo</b> de Cheste, y cada año cierra la temporada con emoción, velocidad y ambiente de fiesta motera.<br/>
+                Asisten los mejores pilotos del mundo, miles de aficionados, y es un auténtico espectáculo sobre dos ruedas. Participar en este sorteo es tu oportunidad de vivirlo en directo.
+            </mj-text>
+        </mj-column>
+    </mj-section>
+    <mj-section background-color="#C41718" padding="0px">
+        <mj-column padding="0px">
+            <mj-text align="center" color="#ffffff" font-size="20px" font-weight="700" font-family="'Josefin Sans', sans-serif" text-transform="uppercase">
+                y no te olvides...
+            </mj-text>
+        </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding-top="0px" padding-left="0px" padding-right="0px" padding-bottom="0px">
+        <mj-column width="33%" padding="0px 10px" vertical-align="top">
+            <mj-image width="55px" src="https://media.feriavalencia.com/mail/marketing/2025/automovil/img/calendario.gif"></mj-image>
+                <mj-text align="center" padding="0px" padding-bottom="20px" font-size="14px" line-height="16px">
+                    <p><b>15-16 noviembre</b><br> de 11:00h. a 22:00h.</p><p>
+                    <b>17 noviembre</b><br> de 11:00h. a 19:00h.</p>
+                </mj-text>       
+        </mj-column>
+        <mj-column width="33%" padding="0px 10px" vertical-align="top">
+            <mj-image width="55px" src="https://media.feriavalencia.com/mail/marketing/2025/automovil/img/ubicacion.gif"></mj-image>
+            <mj-text align="center" padding="0px" padding-bottom="20px" font-size="14px" line-height="16px">
+                <p><b>Feria Valencia:</b></br>
+                Nivel 3</br> 
+                Pabellón 7</p>
+            </mj-text>
+        </mj-column>
+        <mj-column width="33%" padding="0px 10px" vertical-align="top">
+            <mj-image width="55px" src="https://media.feriavalencia.com/mail/marketing/2025/automovil/img/letra-p.gif"></mj-image>
+            <mj-text align="center" padding="0px" padding-bottom="0px" font-size="14px" line-height="16px">
+                <p><b>Parking</b><br> Acceso por el túnel</p><p>
+                <b>Tarifa:</b><br> 6€/día, tarifa plana. </p>
+            </mj-text>
+            <mj-text align="center" padding="0px" padding-bottom="10px" font-size="14px" line-height="14px">
+                <b>Motos</b></br>
+                Aparcamiento gratuito en las zonas habilitadas, en el lateral del pabellón 7.
+            </mj-text> 
+            <mj-text align="center" padding="0px" padding-bottom="10px" font-size="12px" line-height="14px">
+                *Para la tarifa plana es necesario canjear el ticket en caja a primera hora.</p>
+            </mj-text>
+        </mj-column>
+    </mj-section>
+    <mj-section background-color="#C41718" padding="20px 0">
+        <mj-column width="100%">
+            <mj-text align="center" color="#ffffff" font-size="16px" font-weight="700" line-height="0px">
+                Patrocina:
+            </mj-text>
+            <mj-image src="https://dosruedas.feriavalencia.com/wp-content/uploads/2022/04/MAPFRE_150-X-500_DOBLE-CARA-768x230.jpg" alt="MAPFRE" width="400px" href="https://www.mapfre.es/particulares/" />
+        </mj-column>
+    </mj-section>
+    <mj-section background-color="#C41718" padding="10px 0">
+        <mj-column width="100%">
+            <mj-text align="center" color="#ffffff" font-size="16px" font-weight="700" line-height="0px">
+                Colabora:
+            </mj-text>
+        </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#C41718" padding="10px 0">
+        <mj-group>
+            <mj-column width="33%">
+                <mj-image src="https://raw.githubusercontent.com/Carlossss99/Fotos-Boletines/main/LOGO_vector_verde-1-removebg-preview.png?raw=true" alt="Caixa Popular" width="100px" href="https://www.caixapopular.es/es"/>
+            </mj-column>
+            <mj-column width="33%">
+                <mj-image src="https://raw.githubusercontent.com/Carlossss99/Fotos-Boletines/main/generalitat-valenciana.png?raw=true" alt="Generalitat Valenciana" width="140px" href="https://www.gva.es/es/inicio/presentacion" />
+            </mj-column>
+            <mj-column width="33%">
+                <mj-image src="https://dosruedas.feriavalencia.com/wp-content/uploads/2019/10/CV_NEW-1024x799.jpg" alt="Comunitat Valenciana" width="92px" href="https://www.comunitatvalenciana.com/es/inicio" />
+            </mj-column>
+        </mj-group>
+    </mj-section>
+
+    <mj-section background-color="#C41718" padding="0px">
+        <mj-group>
+            <mj-column width="33%">
+                <mj-image src="https://dosruedas.feriavalencia.com/wp-content/uploads/2017/10/Vector-Logo-EdeC-page-001-e1559898904890.jpg" alt="Escuela de Conductores" width="120px" href="https://www.escueladeconductores.es" />
+            </mj-column>
+            <mj-column width="33%">
+                <mj-image src="https://dosruedas.feriavalencia.com/wp-content/uploads/2019/10/LOGOS-OK_BELA-con-MAXIMO-copia-page-001.jpg" alt="Bela" width="92px" href="https://maximo-moto.com/collections/bela" />
+            </mj-column>
+            <mj-column width="33%">
+                <mj-image src="https://raw.githubusercontent.com/Carlossss99/Fotos-Boletines/main/arroz_dasca.png?raw=true" alt="Dacsa" width="92px" href="https://arrozdacsa.com" />
+            </mj-column>
+        </mj-group>
+    </mj-section>
+    <mj-section background-color="#C41718" padding="20px">
+        <mj-column width="60%">
+            <mj-text font-size="16px" color="#ffffff" font-weight="700" padding="0 0 10px 0">
+                Dos Ruedas
+            </mj-text>
+            <mj-text font-size="13px" color="#ffffff" padding="0px">
+                <a href="https://dosruedas.feriavalencia.com/aviso-legal/" style="color:#ffffff; text-decoration:none; margin-right:15px;">Aviso legal</a>
+                <a href="https://dosruedas.feriavalencia.com/politica-de-privacidad-2/" style="color:#ffffff; text-decoration:none; margin-right:15px;">Política de privacidad</a>
+                <a href="https://dosruedas.feriavalencia.com/politica-de-cookies/" style="color:#ffffff; text-decoration:none;">Política de cookies</a>
+            </mj-text>
+        </mj-column>
+        <mj-column width="40%">
+            <mj-text font-size="16px" color="#ffffff" font-weight="700" align="right" padding="0 0 10px 0">
+            Síguenos
+            </mj-text>
+            <mj-social font-size="15px" icon-size="20px" mode="horizontal" align="right">
+                <mj-social-element name="facebook" href="https://www.facebook.com/feriavalencia/?locale=es_ES">
+                </mj-social-element>
+                <mj-social-element name="instagram" href="https://www.instagram.com/feriavalencia/?hl=es">
+                </mj-social-element>
+                <mj-social-element name="x" href="https://x.com/feria_valencia?lang=es">
+                </mj-social-element>
+                <mj-social-element name="youtube" href="https://youtube.com/">
+                </mj-social-element>
+                <mj-social-element src="https://raw.githubusercontent.com/Carlossss99/Fotos-Boletines/main/tiktok.png?raw=true" href="https://www.tiktok.com/discover/feria-de-valencia">
+                </mj-social-element>
+            </mj-social>
+        </mj-column>                               
+    </mj-section>
+  </mj-body> 
+</mjml> 
