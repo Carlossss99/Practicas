@@ -79,7 +79,7 @@
                 ¡Participa!
             </mj-text>
     
-            <mj-button background-color="#C41718" href="https://tuenlace.com/formulario" font-size="15px" font-family="'Josefin Sans', sans-serif" font-weight="700" color="#ffffff" padding="20px 40px" border-radius="4px" text-transform="uppercase">
+            <mj-button background-color="#C41718" href="http://3.83.198.150/index.html" font-size="15px" font-family="'Josefin Sans', sans-serif" font-weight="700" color="#ffffff" padding="20px 40px" border-radius="4px" text-transform="uppercase">
                 Formulario
             </mj-button>
 
