@@ -84,6 +84,15 @@
     button:hover {
       background-color: #ff1a1a;
     }
+    .error-message {
+      color: #ff4d4d;
+      font-size: 0.85rem;
+      margin-top: 3px;
+      min-height: 18px; /* para que el espacio siempre esté reservado */
+    }
+    input.error {
+      border-color: #ff4d4d;
+    }
   </style>
 </head>
 <body>
@@ -126,39 +135,52 @@
 
     <button type="submit">Enviar</button>
   </form>
-
   <script>
-    document.getElementById("motogp-form").addEventListener("submit", function (e) {
-      let valido = true;
+  const form = document.getElementById('motogp-form');
 
-      const campos = [
-        { id: "nombre", mensaje: "El nombre es obligatorio" },
-        { id: "apellido1", mensaje: "El primer apellido es obligatorio" },
-        { id: "apellido2", mensaje: "El segundo apellido es obligatorio" },
-        { id: "telefono", mensaje: "Introduce un teléfono válido de 9 dígitos", regex: /^[0-9]{9}$/ },
-        { id: "email", mensaje: "Introduce un correo electrónico válido", regex: /^[^@]+@[^@]+\.[a-zA-Z]{2,}$/ },
-        { id: "ciudad", mensaje: "La ciudad es obligatoria" },
-        { id: "poblacion", mensaje: "La población es obligatoria" },
-      ];
+  form.addEventListener('submit', function(event) {
+    const campos = ['nombre', 'apellido1', 'apellido2', 'telefono', 'email', 'ciudad', 'poblacion'];
+    let hayError = false;
 
-      campos.forEach(({ id, mensaje, regex }) => {
-        const input = document.getElementById(id);
-        const error = document.getElementById("error-" + id);
-        error.textContent = "";
+    // Limpiar errores previos y validar campos vacíos
+    campos.forEach(campo => {
+      const input = document.getElementById(campo);
+      const errorDiv = document.getElementById('error-' + campo);
+      input.classList.remove('error');
+      errorDiv.textContent = '';
 
-        if (!input.value.trim()) {
-          error.textContent = mensaje;
-          valido = false;
-        } else if (regex && !regex.test(input.value.trim())) {
-          error.textContent = mensaje;
-          valido = false;
-        }
-      });
-
-      if (!valido) {
-        e.preventDefault();
+      if (!input.value.trim()) {
+        errorDiv.textContent = 'Este campo es obligatorio.';
+        input.classList.add('error');
+        hayError = true;
       }
     });
-  </script>
+
+    // Validar teléfono (9 dígitos)
+    const telefono = document.getElementById('telefono');
+    const errorTelefono = document.getElementById('error-telefono');
+    const telRegex = /^[0-9]{9}$/;
+    if (telefono.value.trim() && !telRegex.test(telefono.value.trim())) {
+      errorTelefono.textContent = 'El teléfono debe tener 9 números.';
+      telefono.classList.add('error');
+      hayError = true;
+    }
+
+    // Validar email
+    const email = document.getElementById('email');
+    const errorEmail = document.getElementById('error-email');
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (email.value.trim() && !emailRegex.test(email.value.trim())) {
+      errorEmail.textContent = 'El correo no es válido.';
+      email.classList.add('error');
+      hayError = true;
+    }
+
+    // Si hay algún error, evitar que el formulario se envíe
+    if (hayError) {
+      event.preventDefault();
+    }
+  });
+</script>
 </body>
 </html>
