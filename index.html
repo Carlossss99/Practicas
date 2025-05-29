@@ -1,132 +1,164 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Formulario MotoGP</title>
-<style>
-  /* Imagen de fondo con overlay oscuro */
-  body {
-    margin: 0; padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #fff;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: 
-      linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)),
-      url('https://rtrsports.com/wp-content/uploads/2024/07/motogp-4.jpg') no-repeat center center fixed;
-    background-size: cover;
-  }
-  form {
-    background: rgba(17,17,17,0.9);
-    padding: 30px 40px;
-    border-radius: 12px;
-    box-shadow: 0 0 15px #d40000;
-    width: 400px;
-  }
-  h1 {
-    text-align: center;
-    margin-bottom: 5px;
-    font-weight: 700;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-  }
-  /* Texto pequeño debajo del título */
-  .subtitle {
-    text-align: center;
-    font-size: 0.85rem;
-    font-style: italic;
-    color: #f0f0f0cc;
-    margin-bottom: 20px;
-  }
-  label {
-    display: block;
-    margin-top: 15px;
-    font-weight: 600;
-  }
-  input[type="text"],
-  input[type="email"],
-  input[type="tel"] {
-    width: 100%;
-    padding: 10px 12px;
-    margin-top: 5px;
-    border-radius: 6px;
-    border: 2px solid #d40000;
-    font-size: 1rem;
-    color: #000;
-  }
-  input::placeholder {
-    font-style: italic;
-    color: #777;
-  }
-  input:focus {
-    outline: none;
-    border-color: #fff;
-  }
-  .error-message {
-    color: #ff4d4d;
-    font-size: 0.85rem;
-    margin-top: 3px;
-  }
-  button {
-    margin-top: 25px;
-    width: 100%;
-    padding: 12px;
-    font-size: 1.1rem;
-    font-weight: 700;
-    background-color: #d40000;
-    border: none;
-    border-radius: 8px;
-    color: white;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  button:hover {
-    background-color: #ff1a1a;
-  }
-</style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Formulario MotoGP</title>
+  <style>
+    body {
+      margin: 0; padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #fff;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background:
+        linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)),
+        url('https://rtrsports.com/wp-content/uploads/2024/07/motogp-4.jpg') no-repeat center center fixed;
+      background-size: cover;
+    }
+    form {
+      background: rgba(17,17,17,0.9);
+      padding: 30px 40px;
+      border-radius: 12px;
+      box-shadow: 0 0 15px #d40000;
+      width: 400px;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 5px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+    .subtitle {
+      text-align: center;
+      font-size: 0.85rem;
+      font-style: italic;
+      color: #f0f0f0cc;
+      margin-bottom: 20px;
+    }
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: 600;
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"] {
+      width: 100%;
+      padding: 10px 12px;
+      margin-top: 5px;
+      border-radius: 6px;
+      border: 2px solid #d40000;
+      font-size: 1rem;
+      color: #000;
+    }
+    input::placeholder {
+      font-style: italic;
+      color: #777;
+    }
+    input:focus {
+      outline: none;
+      border-color: #fff;
+    }
+    .error-message {
+      color: #ff4d4d;
+      font-size: 0.85rem;
+      margin-top: 3px;
+    }
+    button {
+      margin-top: 25px;
+      width: 100%;
+      padding: 12px;
+      font-size: 1.1rem;
+      font-weight: 700;
+      background-color: #d40000;
+      border: none;
+      border-radius: 8px;
+      color: white;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #ff1a1a;
+    }
+  </style>
 </head>
 <body>
-<form id="motogp-form" action="guardar.php" method="POST" novalidate>
-  <h1>MotoGP Registro</h1>
-  <div class="subtitle">
-    Rellena el formulario para entrar en el sorteo de las entradas para el MotoGP de Cheste!!
-  </div>
+  <form id="motogp-form" action="guardar.php" method="POST" novalidate>
+    <h1>MotoGP Registro</h1>
+    <div class="subtitle">
+      Rellena el formulario para entrar en el sorteo de las entradas para el MotoGP de Cheste!!
+    </div>
 
-  <label for="nombre">Nombre *</label>
-  <input type="text" id="nombre" name="nombre" placeholder="Ej: Marc" />
-  <div class="error-message" id="error-nombre"></div>
+    <label for="nombre">Nombre *</label>
+    <input type="text" id="nombre" name="nombre" placeholder="Ej: Marc" />
+    <div class="error-message" id="error-nombre"></div>
 
-  <label for="apellido1">Apellido 1 *</label>
-  <input type="text" id="apellido1" name="apellido1" placeholder="Ej: Márquez" />
-  <div class="error-message" id="error-apellido1"></div>
+    <label for="apellido1">Apellido 1 *</label>
+    <input type="text" id="apellido1" name="apellido1" placeholder="Ej: Márquez" />
+    <div class="error-message" id="error-apellido1"></div>
 
-  <label for="apellido2">Apellido 2 *</label>
-  <input type="text" id="apellido2" name="apellido2" placeholder="Ej: García" />
-  <div class="error-message" id="error-apellido2"></div>
+    <label for="apellido2">Apellido 2 *</label>
+    <input type="text" id="apellido2" name="apellido2" placeholder="Ej: García" />
+    <div class="error-message" id="error-apellido2"></div>
 
-  <label for="telefono">Número de teléfono *</label>
-  <input type="tel" id="telefono" name="telefono" placeholder="Ej: 612345678" pattern="[0-9]{9}" />
-  <div class="error-message" id="error-telefono"></div>
+    <label for="telefono">Número de teléfono *</label>
+    <input type="tel" id="telefono" name="telefono" placeholder="Ej: 612345678" />
+    <div class="error-message" id="error-telefono"></div>
 
-  <label for="email">Correo electrónico *</label>
-  <input type="email" id="email" name="email" placeholder="Ej: ejemplo@correo.com" />
-  <div class="error-message" id="error-email"></div>
+    <label for="email">Correo electrónico *</label>
+    <input type="email" id="email" name="email" placeholder="Ej: ejemplo@correo.com" />
+    <div class="error-message" id="error-email"></div>
 
-  <label for="ciudad">Ciudad *</label>
-  <input type="text" id="ciudad" name="ciudad" placeholder="Ej: Barcelona" />
-  <div class="error-message" id="error-ciudad"></div>
+    <label for="ciudad">Ciudad *</label>
+    <input type="text" id="ciudad" name="ciudad" placeholder="Ej: Barcelona" />
+    <div class="error-message" id="error-ciudad"></div>
 
-  <label for="poblacion">Población *</label>
-  <input type="text" id="poblacion" name="poblacion" placeholder="Ej: L'Hospitalet" />
-  <div class="error-message" id="error-poblacion"></div>
+    <label for="poblacion">Población *</label>
+    <input type="text" id="poblacion" name="poblacion" placeholder="Ej: L'Hospitalet" />
+    <div class="error-message" id="error-poblacion"></div>
 
-  <label for="direccion">Dirección (opcional)</label>
-  <input type="text" id="direccion" name="direccion" placeholder="Ej: Calle Falsa 123" />
+    <label for="direccion">Dirección (opcional)</label>
+    <input type="text" id="direccion" name="direccion" placeholder="Ej: Calle Falsa 123" />
 
-  <button type="submit">Enviar</button>
-</form>
+    <button type="submit">Enviar</button>
+  </form>
+
+  <script>
+    document.getElementById("motogp-form").addEventListener("submit", function (e) {
+      let valido = true;
+
+      const campos = [
+        { id: "nombre", mensaje: "El nombre es obligatorio" },
+        { id: "apellido1", mensaje: "El primer apellido es obligatorio" },
+        { id: "apellido2", mensaje: "El segundo apellido es obligatorio" },
+        { id: "telefono", mensaje: "Introduce un teléfono válido de 9 dígitos", regex: /^[0-9]{9}$/ },
+        { id: "email", mensaje: "Introduce un correo electrónico válido", regex: /^[^@]+@[^@]+\.[a-zA-Z]{2,}$/ },
+        { id: "ciudad", mensaje: "La ciudad es obligatoria" },
+        { id: "poblacion", mensaje: "La población es obligatoria" },
+      ];
+
+      campos.forEach(({ id, mensaje, regex }) => {
+        const input = document.getElementById(id);
+        const error = document.getElementById("error-" + id);
+        error.textContent = "";
+
+        if (!input.value.trim()) {
+          error.textContent = mensaje;
+          valido = false;
+        } else if (regex && !regex.test(input.value.trim())) {
+          error.textContent = mensaje;
+          valido = false;
+        }
+      });
+
+      if (!valido) {
+        e.preventDefault();
+      }
+    });
+  </script>
 </body>
 </html>
