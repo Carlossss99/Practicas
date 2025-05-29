@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Formulario de Suscripción</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom, #e0f0ff, #ffffff);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .form-container {
+      background: white;
+      border-radius: 30px;
+      box-shadow: 0 0 20px rgba(0, 100, 255, 0.2);
+      padding: 40px 50px;
+      width: 400px;
+      text-align: center;
+    }
+
+    h1 {
+      color: #0078D7;
+      margin-bottom: 20px;
+      font-size: 1.8em;
+    }
+
+    label {
+      display: block;
+      margin-top: 15px;
+      text-align: left;
+      font-weight: 600;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    select {
+      width: 100%;
+      padding: 12px;
+      margin-top: 8px;
+      border: 2px solid #cce0ff;
+      border-radius: 12px;
+      font-size: 1rem;
+      transition: border-color 0.2s ease;
+    }
+
+    input:focus,
+    select:focus {
+      border-color: #0078D7;
+      outline: none;
+    }
+
+    button {
+      margin-top: 25px;
+      width: 100%;
+      padding: 14px;
+      background: #0078D7;
+      color: white;
+      border: none;
+      border-radius: 18px;
+      font-size: 1.1rem;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    button:hover {
+      background: #005cbf;
+    }
+  </style>
+</head>
+<body>
+  <div class="form-container">
+    <h1>Suscríbete al Boletín</h1>
+    <form action="guardar.php" method="POST">
+      <label for="nombre">Nombre</label>
+      <input type="text" name="nombre" id="nombre" placeholder="Ej: Juan" required />
+
+      <label for="apellidos">Apellidos</label>
+      <input type="text" name="apellidos" id="apellidos" placeholder="Ej: Pérez Gómez" required />
+
+      <label for="correo">Correo Electrónico</label>
+      <input type="email" name="correo" id="correo" placeholder="ejemplo@correo.com" required />
+
+      <label for="telefono">Teléfono</label>
+      <input type="tel" name="telefono" id="telefono" placeholder="Ej: 612345678" pattern="[0-9]{9}" required />
+
+      <label for="gustos">Selecciona tus gustos</label>
+      <select name="gustos" id="gustos" required>
+        <option value="" disabled selected>-- Selecciona una opción --</option>
+        <option value="Todas">Todas</option>
+        <option value="Motos">Motos</option>
+        <option value="Comics">Cómics</option>
+      </select>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+</body>
+</html>
