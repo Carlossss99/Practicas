@@ -7,13 +7,24 @@
       
     </mj-attributes>
     <mj-style>
-    @media only screen and (max-width:600px) {
-      .listado {padding:0px; }
-      }
-    .listado li {padding-right:10px}
+        @media only screen and (max-width:600px) {
+            .responsive-column div:first-child,
+            .responsive-column td {
+                width: 100% !important;
+                display: block !important;
+            }
+            .responsive-column {
+                padding: 10px 0px !important;
+            }     
+            img {
+            width: 100% !important;
+            height: auto !important;
+            }
+        }
+        .listado li { padding-right: 10px; }
     </mj-style>
   </mj-head>
-  <mj-body width="600px">
+  <mj-body>
     <mj-wrapper full-width="full-width" background-color="#ededed" padding="20px 0px">
       <mj-section padding="0px">
       	<mj-column width="80%">
@@ -23,7 +34,7 @@
       </mj-section>
       
       <mj-section padding="0px" background-color="#fff">
-      <mj-column><mj-image src="https://practicas.feriavalencia.com/wp-content/uploads/2025/05/Cabecera_mail_2Ruedas_2024_expositores.jpg" href="https://www.feriaautomovil.es" padding="0px"></mj-image></mj-column>
+      <mj-column><mj-image fluid-on-mobile="true" src="https://practicas.feriavalencia.com/wp-content/uploads/2025/05/Cabecera_mail_2Ruedas_2024_expositores.jpg" href="https://www.feriaautomovil.es" padding="0px"></mj-image></mj-column>
       </mj-section>
       <mj-section background-color="#C41718" padding="0px">
       <mj-column padding="0px">
@@ -47,7 +58,7 @@
         </mj-column>
     </mj-section>
     <mj-section background-color="#ffffff" padding="10px">
-        <mj-column>
+        <mj-column css-class="responsive-column">
             <mj-text align="center" font-size="20px" font-weight="700" font-family="'Josefin Sans', sans-serif" color="#C41718" text-transform="uppercase">
                 ✅Cómo participar
             </mj-text>
@@ -55,7 +66,7 @@
                 Rellena el formulario de solicitud de entradas para acceder a la feria antes del <b>1 de septiembre</b>.
             </mj-text>
         </mj-column>
-        <mj-column>
+        <mj-column css-class="responsive-column">
             <mj-text align="center" font-size="20px" font-weight="700" font-family="'Josefin Sans', sans-serif" color="#C41718" text-transform="uppercase">
                 🏆Premio
             </mj-text>
@@ -63,7 +74,7 @@
                 Participas en el sorteo de <b>2 entradas dobles</b> para el Gran Premio de Motociclismo de Cheste.
             </mj-text>
         </mj-column>
-        <mj-column>
+        <mj-column css-class="responsive-column">
             <mj-text align="center" font-size="18px" font-weight="700" font-family="'Josefin Sans', sans-serif" color="#C41718" text-transform="uppercase">
                 🔍Pide el boletín
             </mj-text>
@@ -72,6 +83,7 @@
             </mj-text>
         </mj-column>
     </mj-section>
+
 
     <mj-section background-url="https://media1.tenor.com/m/Jdm8OZKzCnYAAAAd/rebahan-motogp.gif" background-size="cover" background-repeat="no-repeat" padding="0px" full-width="full-width">
         <mj-column background-color="rgba(0, 0, 0, 0.7)" padding="50px 0px">
@@ -117,22 +129,22 @@
     </mj-section>
     <mj-section background-color="#ffffff" padding-top="0px" padding-left="0px" padding-right="0px" padding-bottom="0px">
         <mj-column width="33%" padding="0px 10px" vertical-align="top">
-            <mj-image width="55px" src="https://media.feriavalencia.com/mail/marketing/2025/automovil/img/calendario.gif"></mj-image>
+            <mj-image width="55px" fluid-on-mobile="true" src="https://media.feriavalencia.com/mail/marketing/2025/automovil/img/calendario.gif"></mj-image>
                 <mj-text align="center" padding="0px" padding-bottom="20px" font-size="14px" line-height="16px">
                     <p><b>15-16 noviembre</b><br> de 11:00h. a 22:00h.</p><p>
                     <b>17 noviembre</b><br> de 11:00h. a 19:00h.</p>
                 </mj-text>       
         </mj-column>
-        <mj-column width="33%" padding="0px 10px" vertical-align="top">
-            <mj-image width="55px" src="https://media.feriavalencia.com/mail/marketing/2025/automovil/img/ubicacion.gif"></mj-image>
+        <mj-column padding="0px 10px" vertical-align="top">
+            <mj-image width="55px" fluid-on-mobile="true" src="https://media.feriavalencia.com/mail/marketing/2025/automovil/img/ubicacion.gif"></mj-image>
             <mj-text align="center" padding="0px" padding-bottom="20px" font-size="14px" line-height="16px">
                 <p><b>Feria Valencia:</b></br>
                 Nivel 3</br> 
                 Pabellón 7</p>
             </mj-text>
         </mj-column>
-        <mj-column width="33%" padding="0px 10px" vertical-align="top">
-            <mj-image width="55px" src="https://media.feriavalencia.com/mail/marketing/2025/automovil/img/letra-p.gif"></mj-image>
+        <mj-column padding="0px 10px" vertical-align="top">
+            <mj-image width="55px" fluid-on-mobile="true" src="https://media.feriavalencia.com/mail/marketing/2025/automovil/img/letra-p.gif"></mj-image>
             <mj-text align="center" padding="0px" padding-bottom="0px" font-size="14px" line-height="16px">
                 <p><b>Parking</b><br> Acceso por el túnel</p><p>
                 <b>Tarifa:</b><br> 6€/día, tarifa plana. </p>
@@ -151,7 +163,7 @@
             <mj-text align="center" color="#ffffff" font-size="16px" font-weight="700" line-height="0px">
                 Patrocina:
             </mj-text>
-            <mj-image src="https://dosruedas.feriavalencia.com/wp-content/uploads/2022/04/MAPFRE_150-X-500_DOBLE-CARA-768x230.jpg" alt="MAPFRE" width="400px" href="https://www.mapfre.es/particulares/" />
+            <mj-image fluid-on-mobile="true" src="https://dosruedas.feriavalencia.com/wp-content/uploads/2022/04/MAPFRE_150-X-500_DOBLE-CARA-768x230.jpg" alt="MAPFRE" width="400px" href="https://www.mapfre.es/particulares/" />
         </mj-column>
     </mj-section>
     <mj-section background-color="#C41718" padding="10px 0">
@@ -164,28 +176,28 @@
 
     <mj-section background-color="#C41718" padding="10px 0">
         <mj-group>
-            <mj-column width="33%">
-                <mj-image src="https://raw.githubusercontent.com/Carlossss99/Fotos-Boletines/main/LOGO_vector_verde-1-removebg-preview.png?raw=true" alt="Caixa Popular" width="100px" href="https://www.caixapopular.es/es"/>
+            <mj-column>
+                <mj-image fluid-on-mobile="true" src="https://raw.githubusercontent.com/Carlossss99/Fotos-Boletines/main/LOGO_vector_verde-1-removebg-preview.png?raw=true" alt="Caixa Popular" width="100px" href="https://www.caixapopular.es/es"/>
             </mj-column>
-            <mj-column width="33%">
-                <mj-image src="https://raw.githubusercontent.com/Carlossss99/Fotos-Boletines/main/generalitat-valenciana.png?raw=true" alt="Generalitat Valenciana" width="140px" href="https://www.gva.es/es/inicio/presentacion" />
+            <mj-column>
+                <mj-image fluid-on-mobile="true" src="https://raw.githubusercontent.com/Carlossss99/Fotos-Boletines/main/generalitat-valenciana.png?raw=true" alt="Generalitat Valenciana" width="140px" href="https://www.gva.es/es/inicio/presentacion" />
             </mj-column>
-            <mj-column width="33%">
-                <mj-image src="https://dosruedas.feriavalencia.com/wp-content/uploads/2019/10/CV_NEW-1024x799.jpg" alt="Comunitat Valenciana" width="92px" href="https://www.comunitatvalenciana.com/es/inicio" />
+            <mj-column>
+                <mj-image fluid-on-mobile="true" src="https://dosruedas.feriavalencia.com/wp-content/uploads/2019/10/CV_NEW-1024x799.jpg" alt="Comunitat Valenciana" width="92px" href="https://www.comunitatvalenciana.com/es/inicio" />
             </mj-column>
         </mj-group>
     </mj-section>
 
     <mj-section background-color="#C41718" padding="0px">
         <mj-group>
-            <mj-column width="33%">
-                <mj-image src="https://dosruedas.feriavalencia.com/wp-content/uploads/2017/10/Vector-Logo-EdeC-page-001-e1559898904890.jpg" alt="Escuela de Conductores" width="120px" href="https://www.escueladeconductores.es" />
+            <mj-column>
+                <mj-image fluid-on-mobile="true" src="https://dosruedas.feriavalencia.com/wp-content/uploads/2017/10/Vector-Logo-EdeC-page-001-e1559898904890.jpg" alt="Escuela de Conductores" width="120px" href="https://www.escueladeconductores.es" />
             </mj-column>
-            <mj-column width="33%">
-                <mj-image src="https://dosruedas.feriavalencia.com/wp-content/uploads/2019/10/LOGOS-OK_BELA-con-MAXIMO-copia-page-001.jpg" alt="Bela" width="92px" href="https://maximo-moto.com/collections/bela" />
+            <mj-column>
+                <mj-image fluid-on-mobile="true" src="https://dosruedas.feriavalencia.com/wp-content/uploads/2019/10/LOGOS-OK_BELA-con-MAXIMO-copia-page-001.jpg" alt="Bela" width="92px" href="https://maximo-moto.com/collections/bela" />
             </mj-column>
-            <mj-column width="33%">
-                <mj-image src="https://raw.githubusercontent.com/Carlossss99/Fotos-Boletines/main/arroz_dasca.png?raw=true" alt="Dacsa" width="92px" href="https://arrozdacsa.com" />
+            <mj-column>
+                <mj-image fluid-on-mobile="true" src="https://raw.githubusercontent.com/Carlossss99/Fotos-Boletines/main/arroz_dasca.png?raw=true" alt="Dacsa" width="92px" href="https://arrozdacsa.com" />
             </mj-column>
         </mj-group>
     </mj-section>
